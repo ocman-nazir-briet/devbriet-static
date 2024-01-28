@@ -3036,6 +3036,20 @@ input[type=radio] {
     display: none
 }
 
+/* Adjust height for smaller screens */
+@media screen and (max-width: 768px) {
+    .logo-light, .logo-dark {
+        height: 50px !important;
+    }
+}
+
+/* Adjust height for even smaller screens */
+@media screen and (max-width: 576px) {
+    .logo-light, .logo-dark {
+        height: 40px !important;
+    }
+}
+
 .is-sticky .logo-dark {
     display: inline-block
 }
